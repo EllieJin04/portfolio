@@ -11,3 +11,8 @@ body {
 .font-primary {
   color:rgb(9, 183, 183);
 }
+
+.title-icon {
+  font-size: 20px;
+  font-weight: bold;
+}
