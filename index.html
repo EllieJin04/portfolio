@@ -4,45 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
     <link rel="icon" type="imgage/png" href="images/techis-logo.png" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
   </head>
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
-      <!-- container: adjust the width for each device -->
+    <nav class="navbar navbar-expand-lg navebar-light shadow-sm">
       <div class="container">
-        <!-- navbar-brand, for your company, product, or project name -->
-        <a class="navbar-brand title-icon" href="#"
+        <a class="navbar-brand tittle-icon" href="#"
           ><span class="font-primary">P</span>ortfolio</a
         >
-        <!-- navbar toggler, for use with our collapse plugin and other navigation toggling behavior -->
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-        ></button>
+          data-bs-target="#navbarToggler"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <!-- .collapse, .navbar-collapse, for grouping and hiding navbar contents by a parent break point  -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <!-- navbar-nav: for a full-height and lightweight navigation -->
-          <!-- ms-auto: for pushing items to the left -->
-          <!-- ms-2: for a margin bottom for 2 -->
+        <div class="collapse navbar-collapse" id="navbarToggler">
           <ul class="navbar-nav ms-auto mb-2">
             <li class="nav-item">
               <a class="nav-link font-black" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link font-black" href="#projects">Projects</a>
+              <a class="nav-link font-black" href="#project">Projects</a>
             </li>
           </ul>
         </div>
@@ -56,8 +53,8 @@
       <div class="name">Xitong(Ellie) Jin</div>
       <div class="vocation">Web Application Developer</div>
       <div class="skills">
-        Java / Python / HTML / CSS / Javascript / React.js / Redux/
-        Django / Express.js / AWS (Basics) / Docker (Basics)
+        Java / Python / HTML / CSS / Javascript / React.js / Redux/ Django /
+        Express.js / AWS (Basics) / Docker (Basics)
       </div>
       <p>
         I'm currently a sophomore studying at DePauw University majoring in
@@ -67,34 +64,47 @@
       </p>
       <div class="email">elliejin2004@gmail.com</div>
       <div class="icons">
-        <a href="https://github.com/EllieJin04" target="_blank"><i class="bi bi-github"></i></a>
-        <a href="https://www.linkedin.com/in/elliejin2004" target="_blank"><i class="bi bi-linkedin ms-3"></i></a>
+        <a href="https://github.com/EllieJin04" target="_blank"
+          ><i class="bi bi-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/elliejin2004" target="_blank"
+          ><i class="bi bi-linkedin ms-3"></i
+        ></a>
       </div>
-
     </div>
 
-     <!-- Projects -->
+    <!-- Projects -->
     <div id="projects">
       <h2><span class="font-primary">P</span>roject</h2>
 
       <div class="card mb-3">
         <div class="row">
           <div class="col-md-4">
-            <img src="./images/project-twitter.png" class="img-fluid rounded-start" alt="Twitter Project">
+            <img
+              src="./images/project-twitter.png"
+              class="img-fluid rounded-start"
+              alt="Twitter Project"
+            />
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Twitter Clone</h5>
-              <p class="card-text">This is a twitter based projct using Django.</p>
+              <p class="card-text">
+                This is a twitter based projct using Django.
+              </p>
               <p class="card-text">
                 <small class="text-muted">
-                  Test Login Account <br>
-                  Email : test@gmail.com <br>
+                  Test Login Account <br />
+                  Email : test@gmail.com <br />
                   Password : 1234
                 </small>
               </p>
-              <a href="#" target="_parent" class="btn btn-secondary">Website Link</a>
-              <a href="#" target="_parent" class="btn btn-secondary">Github Link</a>
+              <a href="#" target="_parent" class="btn btn-secondary"
+                >Website Link</a
+              >
+              <a href="#" target="_parent" class="btn btn-secondary"
+                >Github Link</a
+              >
             </div>
           </div>
         </div>
@@ -103,21 +113,31 @@
       <div class="card mb-3">
         <div class="row">
           <div class="col-md-4">
-            <img src="./images/project-netflix.png" class="img-fluid rounded-start" alt="Netflix Project">
+            <img
+              src="./images/project-netflix.png"
+              class="img-fluid rounded-start"
+              alt="Netflix Project"
+            />
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Netflix Clone</h5>
-              <p class="card-text">This is a Netflix based projct using HTML / CSS / JS.</p>
+              <p class="card-text">
+                This is a Netflix based projct using HTML / CSS / JS.
+              </p>
               <p class="card-text">
                 <small class="text-muted">
-                  Test Login Account <br>
-                  Email : test@gmail.com <br>
+                  Test Login Account <br />
+                  Email : test@gmail.com <br />
                   Password : 1234
                 </small>
               </p>
-              <a href="#" target="_parent" class="btn btn-secondary">Website Link</a>
-              <a href="#" target="_parent" class="btn btn-secondary">Github Link</a>
+              <a href="#" target="_parent" class="btn btn-secondary"
+                >Website Link</a
+              >
+              <a href="#" target="_parent" class="btn btn-secondary"
+                >Github Link</a
+              >
             </div>
           </div>
         </div>
